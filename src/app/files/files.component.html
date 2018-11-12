@@ -1,0 +1,2 @@
+<app-file-upload (renderFilesList)="renderFilesList($event)"></app-file-upload>
+<app-files-list *ngIf="files" [files]="files" (renderFilesList)="renderFilesList($event)"></app-files-list>
