@@ -41,7 +41,7 @@ export class FilesService {
 	 }
 
 	/**
-	* Удаление файла // Поскольку файл не удаляется, а помечается удаленным, то использую PUT
+	* Удаление файла
 	* @param {number} id
 	* @returns {{}}
 	*/
@@ -52,7 +52,7 @@ export class FilesService {
 	
 	/**
     *  Функция для отлова ошибок]
-    * @param {HttpErrorResponse} error [текс ошибки]
+    * @param {HttpErrorResponse} error текст ошибки
     */
 
     private errorHandler(error: HttpErrorResponse) {
